@@ -3,13 +3,13 @@
 from time import sleep
 from threading import *
 
-class thread1(Thread):
+class thread1(Thread):                             # inheriting the properties of the Thread class in thread1 class
     def run(self):
         for i in range(5):
             print("hello world")
             sleep(1)
 
-class thread2(Thread):
+class thread2(Thread):                            # inheriting the properties of the Thread class in thread1 class
     def run(self):
         for i in range(5):
             print("hi everyone")
